@@ -2,10 +2,16 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import xgboost as xgb
 
 # Load models
-model = joblib.load('Week2/models/xgboost_model.pkl')
-classifier = joblib.load('Week2/models/classifier2.pkl')
+#model = joblib.load('Week2/models/xgboost_model.pkl')
+model = xgb.Booster()
+model.load_model('Week2/models/xgboost_model.pkl')
+
+classifier = xgb.Booster()
+classifier.load_model('Week2/models/classifier2.pkl')
+#classifier = joblib.load('Week2/models/classifier2.pkl')
 
 st.title("AI Retention Prediction System")
 
