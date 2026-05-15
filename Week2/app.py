@@ -2,14 +2,14 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-import xgboost as xgb
+from xgboost import XGBRegressor, XGBClassifier
 
 # Load models
 #model = joblib.load('Week2/models/xgboost_model.pkl')
-model = xgb.Booster()
+model = XGBRegressor()
 model.load_model('Week2/models/xgboost_model.pkl')
 
-classifier = xgb.Booster()
+classifier = XGBClassifier()
 classifier.load_model('Week2/models/classifier2.pkl')
 #classifier = joblib.load('Week2/models/classifier2.pkl')
 
