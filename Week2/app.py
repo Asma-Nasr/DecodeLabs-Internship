@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 # Load models
-model = joblib.load('models/xgboost_model.pkl')
-classifier = joblib.load('models/classifier2.pkl')
+model = joblib.load('Week2/models/xgboost_model.pkl')
+classifier = joblib.load('Week2/models/classifier2.pkl')
 
 st.title("AI Retention Prediction System")
 
