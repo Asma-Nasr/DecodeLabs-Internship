@@ -5,13 +5,11 @@ import joblib
 from xgboost import XGBRegressor, XGBClassifier
 
 # Load models
-#model = joblib.load('Week2/models/xgboost_model.pkl')
 model = XGBRegressor()
-model.load_model('Week2/models/xgboost_model.pkl')
+model.load_model('Week2/models/xgboost_model.json')
 
 classifier = XGBClassifier()
-classifier.load_model('Week2/models/classifier2.pkl')
-#classifier = joblib.load('Week2/models/classifier2.pkl')
+classifier.load_model('Week2/models/classifier2.json')
 
 st.title("AI Retention Prediction System")
 
