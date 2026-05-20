@@ -8,7 +8,7 @@ Task 2 @DecodeLabs Data Science Internship.
 - [Dataset](#Dataset)
 - [Notebook](#Notebook)
 - [Models](#Models)
-- [Live App](#Live App)
+- [Live App](#Live-App)
   
 ## Instructions
 1. Task 1: Load/collect the dataset and document its structure (columns, data types, size, and meaning).
