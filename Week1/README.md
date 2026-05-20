@@ -1,4 +1,4 @@
-# Week1 Task: Diabetes EDA & Predction
+# Week1 Task: Diabetes EDA & Prediction
 Task 1 @DecodeLabs Data Science Internship.
 
 ## Table of Contents
