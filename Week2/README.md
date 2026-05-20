@@ -18,6 +18,7 @@ Task 2 @DecodeLabs Data Science Internship.
 5. Task 5: Deliver either a simple predictive model (train + evaluate + interpret) or an insight-based conclusion/recommendation.
 
 ## Project Structure
+```
 Week2/
 │── models/
 │ ├── classifier2.json
@@ -28,6 +29,7 @@ Week2/
 │── Week2.ipynb
 ├── app.py (Streamlit UI)
 │── requirements.txt
+```
 
 ## Requirements
 
