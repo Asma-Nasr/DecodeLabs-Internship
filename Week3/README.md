@@ -7,6 +7,8 @@ Task 3 @DecodeLabs Data Science Internship.
 - [Requirements](#requirements)
 - [Dataset](#Dataset)
 - [Notebook](#Notebook)
+- [Models](#Models)
+- [Live App](#Live-App)
   
 ## Instructions
 1. Task 1: Load/collect the dataset and document its structure (columns, data types, size, and meaning).
@@ -18,8 +20,17 @@ Task 3 @DecodeLabs Data Science Internship.
 ## Project Structure
 ```
 Week3/
+│── Notebooks/
+│ ├── Eda_n_visualizations.ipynb
+│ ├── Prediction.ipynb
+│── data/
+│ ├── data_preprocessed.csv
+│── models/
+│ ├── label_encoder.json
+│ ├── random_forest_model.joblib
+│ ├── xgboost_model.json
 │── README.md
-│── Week3.ipynb
+│── app.py
 │── requirements.txt
 ```
 
@@ -30,7 +41,14 @@ pip install requirements.txt
 ```
 
 ## Dataset
-- [Dataset](https://www.kaggle.com/datasets/imtkaggleteam/diabetes)
+- [Dataset](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset)
   
 ## Notebook
-- [Week 3 Tasks](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset)
+- [Eda & visualizations](https://github.com/Asma-Nasr/DecodeLabs-Internship/blob/main/Week3/Notebooks/Eda_n_visualizations.ipynb)
+- [Prediction](https://github.com/Asma-Nasr/DecodeLabs-Internship/blob/main/Week3/Notebooks/Prediction.ipynb)
+
+## Models
+- [Models](https://github.com/Asma-Nasr/DecodeLabs-Internship/tree/main/Week3/models)
+
+## Live App
+[Sleep Disorder Prediction Live app](https://sleep-disorder-detection.streamlit.app/)
